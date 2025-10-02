@@ -1,0 +1,39 @@
+body{
+    background: url(fotoback.jpg); background-repeat: no-repeat;
+    background-attachment: fixed; background-size: cover;
+
+}
+.div1 {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 24px;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 100px;
+    padding: 30px;
+    margin: 30px;
+    color: white;
+
+}
+
+    .div2 {
+    display: flex;
+        justify-content: center;
+       font-family: 'Courier New', Courier, monospace;
+    
+}
+
+    .div3 {
+        display: flex;
+        justify-content: baseline;
+        border-radius: 40%;
+
+    }
+    
+        .div4 {
+            display: flex;
+            justify-content: center;
+
+        }
+    
