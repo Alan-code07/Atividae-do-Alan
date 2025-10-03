@@ -1,0 +1,45 @@
+.navegação {
+padding: 5px;
+margin: 5px;
+justify-content: center;
+display: flex;
+}
+.menu {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div1 {
+    display: flex;
+    justify-content: center;
+}
+.image1 {
+    width: 500px;
+    height: 400px;
+    border: 8px solid silver;
+    border-radius: 10px;
+    
+}
+.primeiro-paragrafo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: black;
+    border: 7px solid silver;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    color: white;
+}
+.Iphones{
+    color: silver;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+     
+
+
+}

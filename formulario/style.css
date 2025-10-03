@@ -1,0 +1,9 @@
+body{
+    background-image: url(amor2.jpg); background-repeat: no-repeat;
+    background-attachment: fixed; background-size: cover;
+
+}
+
+label{ font-family: "chau philomene one", sans-serif; color: black;
+    text-align: center; text-decoration: underline white;
+}
