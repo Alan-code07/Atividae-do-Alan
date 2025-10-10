@@ -1,0 +1,57 @@
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: LightSteelBlue;
+padding: 20px;
+text-align: center;
+}
+h1 {
+color: white;
+margin-bottom: 40px;
+}
+/*Estilo base das caixas*/
+p {
+    color: black;
+}
+
+
+.caixa {
+width: 300px;
+border: 3px solid black;
+background-color: black;
+margin: 20px auto;
+text-align: left;
+}
+
+/* caixa com margin */
+
+.margin {
+    background-color: white;
+    margin: 50px auto;
+    padding: 100px;
+}
+/* caixa com padding */
+.padding {
+    background-color: silver;
+    padding: 50px;
+    margin: 20px auto;
+    border: 20px solid white;
+}
+
+.tres {
+    background-color: cyan;
+    padding: 80px;
+    margin: 80px auto;
+    border: 10px solid LightSkyBlue;
+
+
+}
+
+.quatro {
+    background-color: Beige;
+    padding: 80px;
+    margin: 90px auto;
+    border: 3px solid white;
+    border-radius: 80%;
+
+}
+
