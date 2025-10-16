@@ -9,7 +9,7 @@
 }
 body {
     background-color: rgb(105, 128, 128);
-    color: blueviolet;
+    color: black;
     line-height: 1.6;
 }
 .curriculo {
@@ -25,12 +25,12 @@ header {
     margin-bottom: 30px;
 
 }
-select {
+section {
     margin-bottom: 25px;
 }
 h2 {
-    color: darkmagenta;
-    border-bottom: 2px solid blue;
+    color: black;
+    border-bottom: 2px solid black;
     margin-bottom: 5px;
 }
 
