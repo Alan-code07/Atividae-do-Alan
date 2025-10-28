@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body {
+    background-color: rgb(159, 159, 243);
+    color: darkblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* === Cabeçalho === */
+.header {
+    background-color: slateblue;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-decoration-line: underline;
+
+}
+
+.menu a:hover {
+    color: black;
+}
+/*==== Corpo principal ====*/
+.main-container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+/* ====conteudo==== */
+.content {
+    flex: 3;
+    background-color:rgb(138, 192, 240);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* ===card dentro do conteudo */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    flex: 1 1 30%;
+    background-color: rgb(207, 226, 243);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 6px black;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    
+}
+
+/* === Barra Lateral === */
+.sidebar {
+    flex: 1;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 250px;
+    height: fit-content;
+}
+
+.sidebar ul {
+    text-decoration: none;
+    padding-top: 10px;
+}
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+.footer {
+    background-color: slateblue;
+    text-align: center;
+    padding: 10px;
+}
+/* ===Respomsividae ==== */
+@media (max-widht: 768px) {
+    .main-container {
+        flex-direction: column;
+    
+}
+
+
+}
+
+.bunda {
+    color: white;
+    background-color: white;
+width: 50px;
+    padding: 40px;
+    margin: 50px;
+    height: 100px;
+}
+
+
+.bunda:hover {
+    color: black;
+}
